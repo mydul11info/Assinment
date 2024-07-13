@@ -1,0 +1,136 @@
+/* sheard styles */
+
+.open-sans-extraBold {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.sub-title{
+    font-size: 16px;
+    color:rgba(0, 0, 0, 0.737);
+}
+
+.sub-title-1{
+    color:rgba(0, 0, 0, 0.638);  
+}
+
+
+.hero{
+    background-image: url(assets/Hero-bg.png);
+    margin-bottom: 74px;
+}
+.container{
+    width: 998px;
+    margin: 0 auto;
+    text-align: center;
+}
+.container h2{
+    font-size: 48px;
+}
+.Contact{
+    background-color:#0D1321;
+    color: #FFFFFF;
+    padding:5px 21px ;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* layar */
+.layers{
+    
+    text-align: center;
+}
+.layer{
+    display: flex;
+}
+
+.layer-img{
+    width:200px;
+    margin: 0 50px;
+}
+.dev{
+    width: 780px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* section */
+
+
+.insparation{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.insparation-iframe{
+    border: 2px solid lightgray;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+
+
+
+
+.target{
+    width: 998px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.target-items{
+    display: flex;
+}
+.target-item{
+    width: 450px;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 20px;
+    
+}
+.target-text{
+    text-align: center;
+}
+.html{
+    background-color: #ff4b1e80;
+}
+.css{
+    background-color: #004de837;
+}
+.JavaScript{
+    background-color: #ffdd0068;
+}
+
+.support-section{
+    width:955px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(assets/handshake.jpg);
+    background-position: center;
+    padding: 100px 0;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    color: white;
+}
+
+.input-text{
+    width: 300px;
+    padding: 12px;
+}
+.submit{
+    padding: 12px;
+}
+
+.footer-parent{
+    width: 955px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.icon> a{
+    margin-left: 20px;
+}
